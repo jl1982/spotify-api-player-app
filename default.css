@@ -1,0 +1,78 @@
+/* CSS Document */
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed|Thasadith|Voltaire&display=swap');
+/*Misc*/
+canvas {
+	z-index: -999!important;
+	left: 0!important;
+	top: 0!important;
+	width: 100%!important;
+	height: 100%!important;
+	position: absolute!important;
+	object-fit: cover;
+	object-position: center center;
+}
+/*Html Elements*/
+body {
+	color: white;
+	font-weight: normal;
+	font-family: arial;
+	font-size: 5em;
+}
+ul {
+	padding: 1rem 0;
+	margin: auto;
+	display: inline-flex;
+}
+li {
+	list-style-type: none;
+	float: left;
+	margin-right: 4px;
+}
+button {
+	background-color: transparent;
+	border: 0;
+	color: white;
+	border-radius: 0;
+}
+button:focus {
+	outline: 0;
+}
+button img {
+	width: 5rem;
+}
+/*Ids*/
+#current-track {
+	border: 2px solid white;
+}
+#current-track-duration {
+	margin-top: 0;
+}
+#control-bar {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	/* width: fit-content; */
+	background-color: rgba(0, 0, 0, 0.81);
+	border-top: 1px solid rgba(255, 255, 255, 0.12);
+	margin: auto;
+}
+/*Classes*/
+.dg .ac, .dg.main, .dg {
+	display: none!important
+}
+.vert {
+	position: absolute; /*top: 50%; transform: translateY(-50%);*/
+}
+.voltaire {
+	font-family: 'Voltaire', sans-serif;
+}
+.encode {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.thasadith {
+	font-family: 'Thasadith', sans-serif;
+}
